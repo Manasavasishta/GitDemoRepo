@@ -9,12 +9,15 @@ public class StdInpOut {
         String s = scan.nextLine();
         int a= scan.nextInt();
         Double d = scan.nextDouble();
+        int b =scan.nextInt();
+        
         scan.close();
         
         System.out.println(s);
         System.out.println(a);
+      
         System.out.println(d);
-        
+        System.out.println(b);
 
 }
 }
