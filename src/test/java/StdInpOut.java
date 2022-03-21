@@ -12,7 +12,7 @@ public class StdInpOut {
         int b =scan.nextInt();
         String m = scan.nextLine();
         int bp=scan.nextInt();
-        
+        int h=scan.nextInt();
         scan.close();
         
         System.out.println(s);
@@ -22,6 +22,7 @@ public class StdInpOut {
         System.out.println(b);
         System.out.println(m);
         System.out.println(bp);
+        System.out.println(h);
 
 }
 }
