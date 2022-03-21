@@ -11,6 +11,7 @@ public class StdInpOut {
         Double d = scan.nextDouble();
         int b =scan.nextInt();
         String m = scan.nextLine();
+        int bp=scan.nextInt();
         
         scan.close();
         
@@ -20,6 +21,7 @@ public class StdInpOut {
         System.out.println(d);
         System.out.println(b);
         System.out.println(m);
+        System.out.println(bp);
 
 }
 }
