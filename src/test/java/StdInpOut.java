@@ -10,6 +10,7 @@ public class StdInpOut {
         int a= scan.nextInt();
         Double d = scan.nextDouble();
         int b =scan.nextInt();
+        String m = scan.nextLine();
         
         scan.close();
         
@@ -18,6 +19,7 @@ public class StdInpOut {
       
         System.out.println(d);
         System.out.println(b);
+        System.out.println(m);
 
 }
 }
